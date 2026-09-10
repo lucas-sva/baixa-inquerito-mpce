@@ -10,7 +10,7 @@ São **atos lançados no mês**, não o destino final de cada inquérito cadastr
 
 ## Fontes
 
-1. Relatórios mensais de Produtividade de Promotores — [Portal da Transparência / Produtividade por membro](https://mpce.mp.br/portal-da-transparencia/atividade-fim/produtividade-por-membro/)
+1. Relatórios mensais de Produtividade de Promotores, no [Portal da Transparência, seção Produtividade por membro](https://mpce.mp.br/portal-da-transparencia/atividade-fim/produtividade-por-membro/)
 2. API pública de cadastros de IP (não usada nos totais desta página): `https://transparencia-area-fim-api.mpce.mp.br/open/indicadores/classe/259`
 
 ## O que esta página afirma
