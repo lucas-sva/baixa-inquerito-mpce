@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>O inquérito volta para a polícia — MPCE, jul/2025–jun/2026</title>
+    <meta
+      name="description"
+      content="Em 12 meses, 98,3% das baixas de inquérito policial no MPCE pediram mais diligência à Polícia Civil. Dados públicos da Corregedoria."
+    />
+    <meta name="theme-color" content="#0f1f17" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <p class="kicker">Análise independente · dados públicos do MPCE</p>
+      <h1>A polícia recebe o inquérito de volta</h1>
+      <p class="lead">
+        De julho de 2025 a junho de 2026 o Ministério Público do Ceará baixou
+        <strong>57.064</strong> inquéritos policiais. Em
+        <strong>56.113</strong> deles — <strong>98,3%</strong> — pediu mais
+        diligência à Polícia Civil.
+      </p>
+    </header>
+
+    <section class="stats" aria-label="Números principais">
+      <article>
+        <p class="stat-value accent">98,3%</p>
+        <p class="stat-label">das baixas de IP com diligência</p>
+      </article>
+      <article>
+        <p class="stat-value">56.113</p>
+        <p class="stat-label">voltas à PC em 12 meses</p>
+      </article>
+      <article>
+        <p class="stat-value">29.533</p>
+        <p class="stat-label">denúncias escritas</p>
+      </article>
+      <article>
+        <p class="stat-value">1,9×</p>
+        <p class="stat-label">devoluções por denúncia</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>A frase</h2>
+      <p class="quote">
+        Em doze meses, para cada denúncia escrita do MP, quase dois inquéritos
+        voltaram para a Polícia Civil pedindo mais investigação. No primeiro
+        semestre de 2026 isso aconteceu em 99 de cada 100 baixas de IP.
+      </p>
+    </section>
+
+    <section>
+      <h2>Destino da baixa do inquérito</h2>
+      <p class="hint">Só os códigos 920258 e 920259 — exclusivos de IP.</p>
+      <div class="donut-wrap">
+        <svg viewBox="0 0 36 36" class="donut" role="img" aria-label="98,3% com diligência">
+          <circle class="donut-ring" cx="18" cy="18" r="15.915" />
+          <circle class="donut-seg" cx="18" cy="18" r="15.915" stroke-dasharray="98.3 1.7" />
+          <text x="18" y="18.8" class="donut-num">98,3%</text>
+        </svg>
+        <ul class="legend">
+          <li><span class="swatch swatch-accent"></span> Com diligência · 56.113</li>
+          <li><span class="swatch swatch-mute"></span> Sem diligência · 951</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Doze meses na mesma régua</h2>
+      <p class="hint">Em nenhum mês a denúncia passou da devolução.</p>
+      <div id="chart-meses" class="bars"></div>
+    </section>
+
+    <section>
+      <h2>Os dois semestres</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Recorte</th>
+              <th>Com diligência</th>
+              <th>Sem</th>
+              <th>%</th>
+              <th>Denúncia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Recorte">Jul–dez/2025</td>
+              <td data-label="Com diligência">30.204</td>
+              <td data-label="Sem">742</td>
+              <td data-label="%">97,6%</td>
+              <td data-label="Denúncia">15.867</td>
+            </tr>
+            <tr>
+              <td data-label="Recorte">Jan–jun/2026</td>
+              <td data-label="Com diligência">25.909</td>
+              <td data-label="Sem">209</td>
+              <td data-label="%">99,2%</td>
+              <td data-label="Denúncia">13.666</td>
+            </tr>
+            <tr class="total">
+              <td data-label="Recorte">12 meses</td>
+              <td data-label="Com diligência">56.113</td>
+              <td data-label="Sem">951</td>
+              <td data-label="%">98,3%</td>
+              <td data-label="Denúncia">29.533</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Por que isso importa</h2>
+      <p>
+        A investigação criminal no Ceará não termina no MP. Ela reaparece na
+        delegacia — mais de 4 mil vezes por mês, em média. Isso é fila. Fila se
+        resolve com gente na ponta.
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        Fonte:
+        <a href="https://mpce.mp.br/portal-da-transparencia/atividade-fim/produtividade-por-membro/"
+          >Produtividade por membro — MPCE</a
+        >.
+        <a href="METODOLOGIA.md">Metodologia</a>.
+      </p>
+      <p class="fine">
+        Não é página oficial do MPCE. Análise a partir de relatórios públicos da
+        Corregedoria. Sem microdados de partes.
+      </p>
+    </footer>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
